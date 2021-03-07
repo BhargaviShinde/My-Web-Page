@@ -1,0 +1,48 @@
+h1 {
+    color:white;
+    font-size: 45px;
+    font-family: Algerian;
+    font-weight: 100;
+}
+
+.links {
+    margin:20px;
+    padding: 5px;
+    font-size: 25px;
+    align-items: center;
+}
+a :link{
+    color:white;
+}
+a :visited{
+    color:yellow;
+}
+.links a{
+    margin:20px;
+    padding: 5px;
+    color:white;
+}
+.header {
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    display:flex;
+    justify-content: space-between;
+}
+*{
+    border:solid;
+}
+
+.games {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.game img {
+    width:500px;
+    height:300px;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
